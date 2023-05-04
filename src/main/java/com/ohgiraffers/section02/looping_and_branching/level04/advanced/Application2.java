@@ -43,6 +43,7 @@ public class Application2 {
 		System.out.print("상품 가격을 입력하세요 : ");
 		int valuePrice = sc.nextInt();
 
+		int rest = giveMoney-valuePrice;
 		restMoney = giveMoney-valuePrice;
 
 		ohmanwon = restMoney/50000;
@@ -78,7 +79,7 @@ public class Application2 {
 		System.out.println("100원권 동전 " + baekwon + "개");
 		System.out.println("50원권 동전 " + ohsipwon + "개");
 		System.out.println("10원권 동전 " + sipwon + "개");
-		System.out.println("거스름돈 : " + restMoney + "원");
+		System.out.println("거스름돈 : " + rest + "원");
 
 
 	}
